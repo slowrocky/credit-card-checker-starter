@@ -50,7 +50,7 @@ const validateCred = (arr) => {
 }
 
 
-// function for return array of invalid cards
+//return array of invalid cards
 const findInvalidCards = (arr) => {
   let arrayInvalidCards = [];
 
