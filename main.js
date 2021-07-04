@@ -92,6 +92,13 @@ const idInvalidCardCompanies = (arr) => {
   }
   return mailCompany;
 }
+// Convert string card number to number array add into batch array
+const convertStringToArray = (str) => {
+  const arr = str.split('').map(x=>+x);
+  return arr;
+}
+
+
 
 
 
